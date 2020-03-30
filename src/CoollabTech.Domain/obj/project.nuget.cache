@@ -1,0 +1,12 @@
+{
+  "version": 2,
+  "dgSpecHash": "uuO3veAHPzXDSb3july2KlKvzz1mRXQuVmq6BVjBsy4EMDUyyeHOR07N/2UWs/AMTLstl34EmTtfHuA3ZhDHVA==",
+  "success": true,
+  "projectFilePath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTech\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Allan\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\Allan\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\Allan\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+  ],
+  "logs": []
+}

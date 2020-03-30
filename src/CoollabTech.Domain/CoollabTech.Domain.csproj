@@ -1,0 +1,19 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <None Remove="Citizen\Commands\BaseCitizenCommand.cs~RFa189997.TMP" />
+    <None Remove="Citizen\Events\BaseCitizenEvent.cs~RFaa07f34.TMP" />
+    <None Remove="Citizen\Repository\ICitizenRepository.cs~RF50d3566.TMP" />
+    <None Remove="Interfaces\IMediatorHandler.cs~RF288b2f88.TMP" />
+    <None Remove="Interfaces\IUser.cs~RF5ee21c8.TMP" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\CoollabTech.Domain.Core\CoollabTech.Domain.Core.csproj" />
+  </ItemGroup>
+
+</Project>
