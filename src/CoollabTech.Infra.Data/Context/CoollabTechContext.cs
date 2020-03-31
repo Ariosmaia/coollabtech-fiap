@@ -1,12 +1,9 @@
 ﻿using CoollabTech.Domain.Citizen;
+using CoollabTech.Domain.Tickets;
 using CoollabTech.Infra.Data.Extensions;
 using CoollabTech.Infra.Data.Mappings;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.Extensions.Configuration;
-using System;
-using System.Collections.Generic;
-using System.IO;
-using System.Text;
 
 namespace CoollabTech.Infra.Data.Context
 {
@@ -14,6 +11,10 @@ namespace CoollabTech.Infra.Data.Context
     {
         public CoollabTechContext(DbContextOptions<CoollabTechContext> options ) : base(options) { }
         public DbSet<Citizen> Citizen { get; set; }
+        public DbSet<Ticket> Ticket { get; set; }
+        public DbSet<TicketType> TicketType { get; set; }
+        public DbSet<TicketStatus> TicketStatus { get; set; }
+        public DbSet<ServiceProvider> ServiceProvider { get; set; }
 
         protected override void OnModelCreating(ModelBuilder modelBuilder)
         {

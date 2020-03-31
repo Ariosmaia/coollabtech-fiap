@@ -1,12 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "wj1p95OrGf9HXEiqBjH+4GdOOsVeB1twzKzioqFX6hNYiBxdHNI2BnOB0CYW1xb916XS3BvBVUVQm/n2bsIsFg==",
+  "dgSpecHash": "5RE2Eu6Rynp9LrIZyD0WvIA27sII1/vG8hzpYQ2v1F4PellQ596mWsaBNlJZX7qFpbYoYJVWmB4CSegjYIrILA==",
   "success": true,
-  "projectFilePath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTech\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
+  "projectFilePath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\Allan\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
-    "C:\\Users\\Allan\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
-    "C:\\Users\\Allan\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
+    "C:\\Users\\diego\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",
+    "C:\\Users\\diego\\.nuget\\packages\\system.componentmodel.annotations\\4.4.1\\system.componentmodel.annotations.4.4.1.nupkg.sha512"
   ],
   "logs": []
 }

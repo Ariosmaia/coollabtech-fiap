@@ -2,8 +2,6 @@
 using CoollabTech.Application.ViewModels;
 using CoollabTech.Domain.Citizen.Commands;
 using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CoollabTech.Application.AutoMapper
 {
@@ -16,6 +14,11 @@ namespace CoollabTech.Application.AutoMapper
 
             CreateMap<CitizenViewModel, UpdateCitizenCommand>()
                 .ConvertUsing(c => new UpdateCitizenCommand(c.Id, c.Name, c.NickName, c.Document, c.Email, c.Gender));
+
+            //CreateMap<TicketViewModel, Ticket>();
+            //CreateMap<TicketType, TicketTypeViewModel>();
+            //CreateMap<TicketStatus, TicketStatusViewModel>();
+            //CreateMap<ServiceProvider, ServiceProviderViewModel>();
         }
     }
 }

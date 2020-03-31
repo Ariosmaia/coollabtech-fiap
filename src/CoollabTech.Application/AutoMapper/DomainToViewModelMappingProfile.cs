@@ -1,9 +1,7 @@
 ﻿using AutoMapper;
 using CoollabTech.Application.ViewModels;
 using CoollabTech.Domain.Citizen;
-using System;
-using System.Collections.Generic;
-using System.Text;
+using CoollabTech.Domain.Tickets;
 
 namespace CoollabTech.Application.AutoMapper
 {
@@ -12,6 +10,10 @@ namespace CoollabTech.Application.AutoMapper
         public DomainToViewModelMappingProfile()
         {
             CreateMap<Citizen, CitizenViewModel>();
+            CreateMap<Ticket, TicketViewModel>();
+            CreateMap<TicketType, TicketTypeViewModel>();
+            CreateMap<TicketStatus, TicketStatusViewModel>();
+            CreateMap<ServiceProvider, ServiceProviderViewModel>();
         }
     }
 }
