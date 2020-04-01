@@ -14,3 +14,4 @@ C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\C
 C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.AssemblyInfo.cs
 C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
 C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.csprojAssemblyReference.cache

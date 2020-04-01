@@ -1,6 +1,7 @@
 ﻿using AutoMapper;
 using CoollabTech.Application.ViewModels;
 using CoollabTech.Domain.Citizen.Commands;
+using CoollabTech.Domain.Tickets.Commands;
 using System;
 
 namespace CoollabTech.Application.AutoMapper
@@ -15,10 +16,12 @@ namespace CoollabTech.Application.AutoMapper
             CreateMap<CitizenViewModel, UpdateCitizenCommand>()
                 .ConvertUsing(c => new UpdateCitizenCommand(c.Id, c.Name, c.NickName, c.Document, c.Email, c.Gender));
 
-            //CreateMap<TicketViewModel, Ticket>();
-            //CreateMap<TicketType, TicketTypeViewModel>();
-            //CreateMap<TicketStatus, TicketStatusViewModel>();
-            //CreateMap<ServiceProvider, ServiceProviderViewModel>();
+
+            CreateMap<TicketViewModel, RegisterTicketCommand>()
+                .ConvertUsing(c => new RegisterTicketCommand(Guid.NewGuid(), c.Description, c.Localization, c.TicketStatusId, c.TicketTypeId, DateTime.Now));
+
+            CreateMap<TicketViewModel, UpdateTicketCommand>()
+                .ConvertUsing(c => new UpdateTicketCommand(c.Id, c.Description, c.Localization, c.TicketStatusId, c.TicketTypeId));
         }
     }
 }

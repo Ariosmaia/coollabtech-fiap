@@ -21,9 +21,42 @@ namespace CoollabTech.UI.Web.Controllers
         }
         public IActionResult Index()
         {
+            return View(_ticketAppService.GetAll());
+        }
 
-            var teste = _ticketAppService.GetAll();
-            return View(teste);
+        [HttpGet]
+        [Route("edit-ticket/{id:guid}")]
+        public IActionResult Edit(Guid? id)
+        {
+            if (id == null)
+                return NotFound();
+
+            var ticketViewModel = _ticketAppService.GetById(id.Value);
+
+            if (ticketViewModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(ticketViewModel);
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("edit-ticket/{id:guid}")]
+        public IActionResult Edit(TicketViewModel ticketViewModel)
+        {
+            if (!ModelState.IsValid) return View(ticketViewModel);
+
+            _ticketAppService.Update(ticketViewModel);
+
+            return RedirectToAction("Index");
+        }
+
+        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
+        public IActionResult Error()
+        {
+            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
         }
     }
 }

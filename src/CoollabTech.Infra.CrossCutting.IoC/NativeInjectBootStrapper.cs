@@ -6,18 +6,15 @@ using CoollabTech.Domain.Citizen.Repository;
 using CoollabTech.Domain.Core.Notifications;
 using CoollabTech.Domain.Handlers;
 using CoollabTech.Domain.Interfaces;
+using CoollabTech.Domain.Tickets.Commands;
+using CoollabTech.Domain.Tickets.Events;
 using CoollabTech.Domain.Tickets.Repository;
 using CoollabTech.Infra.CrossCutting.Identity.Authorization;
 using CoollabTech.Infra.Data.Repository;
 using CoollabTech.Infra.Data.UoW;
 using MediatR;
 using Microsoft.AspNetCore.Authorization;
-using Microsoft.AspNetCore.Http;
 using Microsoft.Extensions.DependencyInjection;
-using Microsoft.Extensions.DependencyInjection.Extensions;
-using System;
-using System.Collections.Generic;
-using System.Text;
 
 namespace CoollabTech.Infra.CrossCutting.IoC
 {
@@ -38,11 +35,15 @@ namespace CoollabTech.Infra.CrossCutting.IoC
             // Domain - Commands
             services.AddScoped<IRequestHandler<RegisterCitizenCommand, bool>, CitizenCommandHandler>();
             services.AddScoped<IRequestHandler<UpdateCitizenCommand, bool>, CitizenCommandHandler>();
+            //services.AddScoped<IRequestHandler<RegisterTicketCommand, bool>, TicketCommandHandler>();
+            services.AddScoped<IRequestHandler<UpdateTicketCommand, bool>, TicketCommandHandler>();
 
             // Domain - Eventos
             services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler> ();
             services.AddScoped<INotificationHandler<CitizenRegisteredEvent>, CitizenEventHandler>();
             services.AddScoped<INotificationHandler<CitizenUpdatedEvent>, CitizenEventHandler>();
+            //services.AddScoped<INotificationHandler<TicketRegisteredEvent>, TicketEventHandler>();
+            services.AddScoped<INotificationHandler<TicketUpdatedEvent>, TicketEventHandler>();
 
             // Infra - Data
             services.AddScoped<ICitizenRepository, CitizenRepository>();

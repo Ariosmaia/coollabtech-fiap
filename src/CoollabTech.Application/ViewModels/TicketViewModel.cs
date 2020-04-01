@@ -1,13 +1,10 @@
-﻿using CoollabTech.Domain.Citizen.Enums;
-using System;
-using System.Collections.Generic;
+﻿using System;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
-using System.Text;
 
 namespace CoollabTech.Application.ViewModels
 {
-    public class TicketViewModel
+	public class TicketViewModel
     {
 		[Key]
 		[DisplayName("Id")]
@@ -26,13 +23,13 @@ namespace CoollabTech.Application.ViewModels
 		public string Localization { get; set; }
 
 		[DisplayName("Status Id")]
-		public Guid TicketStatusId { get; private set; }
+		public Guid TicketStatusId { get; set; }
 
 		[DisplayName("Tipo Id")]
-		public Guid TicketTypeId { get; private set; }
+		public Guid TicketTypeId { get; set; }
 
 		[DisplayName("Data de cadastro")]
-		public DateTime DateRegister { get; private set; }
+		public DateTime DateRegister { get; set; }
 
 		public TicketStatusViewModel TicketStatusViewModel { get; set; }
 	}
