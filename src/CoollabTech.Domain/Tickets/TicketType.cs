@@ -15,8 +15,7 @@ namespace CoollabTech.Domain.Tickets
         public DateTime DateRegister { get; set; }
 
         /* EF Relation */
-        [NotMapped]
-        public ServiceProvider ServiceProvider { get; set; }
+        public virtual ServiceProvider ServiceProvider { get; set; }
 
         public TicketType(Guid id, string name, Guid serviceProviderId, DateTime dateRegister)
         {

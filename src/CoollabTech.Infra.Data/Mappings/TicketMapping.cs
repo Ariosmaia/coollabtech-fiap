@@ -20,6 +20,10 @@ namespace CoollabTech.Infra.Data.Mappings
             builder.Property(e => e.DateRegister)
                 .IsRequired();
 
+            builder.HasOne(e => e.TicketStatus);
+
+            builder.HasOne(e => e.TicketType);
+
             builder.Ignore(c => c.ValidationResult);
 
             builder.Ignore(c => c.CascadeMode);

@@ -33,5 +33,7 @@ namespace CoollabTech.Application.ViewModels
 
 		[DisplayName("Data de cadastro")]
 		public DateTime DateRegister { get; private set; }
+
+		public TicketStatusViewModel TicketStatusViewModel { get; set; }
 	}
 }

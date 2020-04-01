@@ -1,6 +1,7 @@
 ﻿using CoollabTech.Domain.Core.Models;
 using FluentValidation;
 using System;
+using System.Collections.Generic;
 
 namespace CoollabTech.Domain.Tickets
 {

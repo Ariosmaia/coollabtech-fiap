@@ -21,7 +21,9 @@ namespace CoollabTech.UI.Web.Controllers
         }
         public IActionResult Index()
         {
-            return View(_ticketAppService.GetAll());
+
+            var teste = _ticketAppService.GetAll();
+            return View(teste);
         }
     }
 }

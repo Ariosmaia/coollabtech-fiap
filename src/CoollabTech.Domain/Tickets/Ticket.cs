@@ -14,11 +14,9 @@ namespace CoollabTech.Domain.Tickets
         public DateTime DateRegister { get; set; }
 
         /* EF Relation */
-        [NotMapped]
-        public TicketStatus TicketStatus { get; set; }
+        public virtual TicketStatus TicketStatus { get; set; }
 
-        [NotMapped]
-        public TicketType TicketType { get; set; }
+        public virtual TicketType TicketType { get; set; }
 
         public Ticket(Guid id, string description, string localization, Guid ticketStatusId, Guid ticketTypeId, DateTime dateRegister)
         {
