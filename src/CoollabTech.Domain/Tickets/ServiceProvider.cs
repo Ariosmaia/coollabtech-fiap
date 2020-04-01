@@ -6,8 +6,8 @@ namespace CoollabTech.Domain.Tickets
 {
     public class ServiceProvider : Entity<ServiceProvider>
     {
-        public string Name { get; private set; }
-        public DateTime DateRegister { get; private set; }
+        public string Name { get; set; }
+        public DateTime DateRegister { get; set; }
 
         public ServiceProvider(Guid id, string name, DateTime dateRegister)
         {

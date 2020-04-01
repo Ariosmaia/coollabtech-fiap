@@ -1,19 +1,23 @@
 ﻿using CoollabTech.Domain.Core.Models;
 using FluentValidation;
 using System;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CoollabTech.Domain.Tickets
 {
     public class Ticket : Entity<Ticket>
     {
-        public string Description { get; private set; }
-        public string Localization { get; private set; }
-        public Guid TicketStatusId { get; private set; }
-        public Guid TicketTypeId { get; private set; }
-        public DateTime DateRegister { get; private set; }
+        public string Description { get; set; }
+        public string Localization { get; set; }
+        public Guid TicketStatusId { get; set; }
+        public Guid TicketTypeId { get; set; }
+        public DateTime DateRegister { get; set; }
 
         /* EF Relation */
+        [NotMapped]
         public TicketStatus TicketStatus { get; set; }
+
+        [NotMapped]
         public TicketType TicketType { get; set; }
 
         public Ticket(Guid id, string description, string localization, Guid ticketStatusId, Guid ticketTypeId, DateTime dateRegister)

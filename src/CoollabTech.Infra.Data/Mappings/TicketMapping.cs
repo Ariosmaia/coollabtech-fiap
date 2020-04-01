@@ -1,9 +1,7 @@
-﻿using CoollabTech.Domain.Citizen.Enums;
-using CoollabTech.Domain.Tickets;
+﻿using CoollabTech.Domain.Tickets;
 using CoollabTech.Infra.Data.Extensions;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Metadata.Builders;
-using System;
 
 namespace CoollabTech.Infra.Data.Mappings
 {

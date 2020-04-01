@@ -4,14 +4,16 @@ using CoollabTech.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore.Infrastructure;
 using Microsoft.EntityFrameworkCore.Metadata;
+using Microsoft.EntityFrameworkCore.Migrations;
 using Microsoft.EntityFrameworkCore.Storage.ValueConversion;
 
 namespace CoollabTech.Infra.Data.Migrations
 {
     [DbContext(typeof(CoollabTechContext))]
-    partial class CoollabTechContextModelSnapshot : ModelSnapshot
+    [Migration("20200401002611_202003312130")]
+    partial class _202003312130
     {
-        protected override void BuildModel(ModelBuilder modelBuilder)
+        protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
 #pragma warning disable 612, 618
             modelBuilder

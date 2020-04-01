@@ -28,8 +28,4 @@
     <ProjectReference Include="..\CoollabTech.Infra.Data\CoollabTech.Infra.Data.csproj" />
   </ItemGroup>
 
-  <ItemGroup>
-    <Folder Include="Views\Ticket\" />
-  </ItemGroup>
-
 </Project>

@@ -552,3 +552,4 @@ C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\static
 C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\CoollabTech.UI.Web.dll
 C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\CoollabTech.UI.Web.pdb
 C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\CoollabTech.UI.Web.genruntimeconfig.cache
+C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\Razor\Views\Ticket\Index.cshtml.g.cs

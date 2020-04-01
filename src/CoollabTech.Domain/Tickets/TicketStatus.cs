@@ -6,8 +6,8 @@ namespace CoollabTech.Domain.Tickets
 {
     public class TicketStatus : Entity<TicketStatus>
     {
-        public string Name { get; private set; }
-        public DateTime DateRegister { get; private set; }
+        public string Name { get; set; }
+        public DateTime DateRegister { get; set; }
 
         public TicketStatus(Guid id, string name, DateTime dateRegister)
         {

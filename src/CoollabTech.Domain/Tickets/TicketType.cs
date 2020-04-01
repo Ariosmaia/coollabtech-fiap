@@ -3,17 +3,19 @@ using CoollabTech.Domain.Core.Models;
 using FluentValidation;
 using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Text;
 
 namespace CoollabTech.Domain.Tickets
 {
     public class TicketType : Entity<TicketType>
     {
-        public string Name { get; private set; }
+        public string Name { get; set; }
         public Guid ServiceProviderId { get; set; }
-        public DateTime DateRegister { get; private set; }
+        public DateTime DateRegister { get; set; }
 
         /* EF Relation */
+        [NotMapped]
         public ServiceProvider ServiceProvider { get; set; }
 
         public TicketType(Guid id, string name, Guid serviceProviderId, DateTime dateRegister)

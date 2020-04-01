@@ -6,6 +6,7 @@ using CoollabTech.Domain.Citizen.Repository;
 using CoollabTech.Domain.Core.Notifications;
 using CoollabTech.Domain.Handlers;
 using CoollabTech.Domain.Interfaces;
+using CoollabTech.Domain.Tickets.Repository;
 using CoollabTech.Infra.CrossCutting.Identity.Authorization;
 using CoollabTech.Infra.Data.Repository;
 using CoollabTech.Infra.Data.UoW;
@@ -32,6 +33,7 @@ namespace CoollabTech.Infra.CrossCutting.IoC
 
             // Application
             services.AddScoped<ICitizenAppService, CitizenAppService>();
+            services.AddScoped<ITicketAppService, TicketAppService>();
 
             // Domain - Commands
             services.AddScoped<IRequestHandler<RegisterCitizenCommand, bool>, CitizenCommandHandler>();
@@ -44,6 +46,10 @@ namespace CoollabTech.Infra.CrossCutting.IoC
 
             // Infra - Data
             services.AddScoped<ICitizenRepository, CitizenRepository>();
+            services.AddScoped<ITicketRepository, TicketRepository>();
+            services.AddScoped<ITicketStatusRepository, TicketStatusRepository>();
+            services.AddScoped<ITicketTypeRepository, TicketTypeRepository>();
+            services.AddScoped<IServiceProviderRepository, ServiceProviderRepository>();
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             // Infra - Identity
