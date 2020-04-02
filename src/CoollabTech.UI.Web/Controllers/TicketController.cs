@@ -53,6 +53,25 @@ namespace CoollabTech.UI.Web.Controllers
             return RedirectToAction("Index");
         }
 
+        [HttpGet]
+        [Route("create-ticket/")]
+        public IActionResult Create()
+        {
+            return View(new TicketViewModel());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("create-ticket/")]
+        public IActionResult Create(TicketViewModel ticketViewModel)
+        {
+            if (!ModelState.IsValid) return View(ticketViewModel);
+
+            _ticketAppService.Add(ticketViewModel);
+
+            return RedirectToAction("Index");
+        }
+
         [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
         public IActionResult Error()
         {

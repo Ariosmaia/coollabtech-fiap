@@ -35,14 +35,14 @@ namespace CoollabTech.Infra.CrossCutting.IoC
             // Domain - Commands
             services.AddScoped<IRequestHandler<RegisterCitizenCommand, bool>, CitizenCommandHandler>();
             services.AddScoped<IRequestHandler<UpdateCitizenCommand, bool>, CitizenCommandHandler>();
-            //services.AddScoped<IRequestHandler<RegisterTicketCommand, bool>, TicketCommandHandler>();
+            services.AddScoped<IRequestHandler<RegisterTicketCommand, bool>, TicketCommandHandler>();
             services.AddScoped<IRequestHandler<UpdateTicketCommand, bool>, TicketCommandHandler>();
 
             // Domain - Eventos
             services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler> ();
             services.AddScoped<INotificationHandler<CitizenRegisteredEvent>, CitizenEventHandler>();
             services.AddScoped<INotificationHandler<CitizenUpdatedEvent>, CitizenEventHandler>();
-            //services.AddScoped<INotificationHandler<TicketRegisteredEvent>, TicketEventHandler>();
+            services.AddScoped<INotificationHandler<TicketRegisteredEvent>, TicketEventHandler>();
             services.AddScoped<INotificationHandler<TicketUpdatedEvent>, TicketEventHandler>();
 
             // Infra - Data
