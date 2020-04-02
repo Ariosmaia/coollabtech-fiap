@@ -556,3 +556,4 @@ C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\Razor\
 C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\Razor\Views\Ticket\Edit.cshtml.g.cs
 C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\Razor\Views\Ticket\Create.cshtml.g.cs
 C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\Razor\Views\Ticket\Delete.cshtml.g.cs
+C:\eu\git\coollabtech-fiap\src\CoollabTech.UI.Web\obj\Debug\netcoreapp3.1\Razor\Views\Ticket\Details.cshtml.g.cs
