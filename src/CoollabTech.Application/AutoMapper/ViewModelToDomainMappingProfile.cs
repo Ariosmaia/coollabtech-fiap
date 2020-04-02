@@ -22,6 +22,9 @@ namespace CoollabTech.Application.AutoMapper
 
             CreateMap<TicketViewModel, UpdateTicketCommand>()
                 .ConvertUsing(c => new UpdateTicketCommand(c.Id, c.Description, c.Localization, c.TicketStatusId, c.TicketTypeId));
+
+            CreateMap<Guid, DeleteTicketCommand>()
+                .ConvertUsing(c => new DeleteTicketCommand(c));
         }
     }
 }

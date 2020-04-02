@@ -13,7 +13,8 @@ namespace CoollabTech.Domain.Tickets.Commands
 {
     public class TicketCommandHandler : CommandHandler, 
         IRequestHandler<RegisterTicketCommand, bool>,
-        IRequestHandler<UpdateTicketCommand, bool>
+        IRequestHandler<UpdateTicketCommand, bool>,
+        IRequestHandler<DeleteTicketCommand, bool>
     {
         private readonly IMediatorHandler _mediator;
         private readonly ITicketRepository _ticketRepository;
@@ -66,6 +67,20 @@ namespace CoollabTech.Domain.Tickets.Commands
             if (Commit())
             {
                 _mediator.PublishEvent(new TicketUpdatedEvent(ticket.Id, ticket.Description, ticket.Localization, ticket.TicketStatusId, ticket.TicketTypeId, ticket.DateRegister));
+            }
+
+            return Task.FromResult(true);
+        }
+
+        public Task<bool> Handle(DeleteTicketCommand message, CancellationToken cancellationToken)
+        {
+            var ticketToBeDeleted = _ticketRepository.GetById(message.Id);
+
+            _ticketRepository.Remove(ticketToBeDeleted.Id);
+
+            if (Commit())
+            {
+                _mediator.PublishEvent(new TicketDeletedEvent(ticketToBeDeleted.Id));
             }
 
             return Task.FromResult(true);

@@ -34,19 +34,20 @@ namespace CoollabTech.Application.Services
 
         public void Add(TicketViewModel ticketViewModel)
         {
-            var registerCitizenCommand = _mapper.Map<RegisterTicketCommand>(ticketViewModel);
-            _bus.SendCommand(registerCitizenCommand);
+            var registerTicketCommand = _mapper.Map<RegisterTicketCommand>(ticketViewModel);
+            _bus.SendCommand(registerTicketCommand);
         }
 
         public void Update(TicketViewModel ticketViewModel)
         {
-            var updateCitizenCommand = _mapper.Map<UpdateTicketCommand>(ticketViewModel);
-            _bus.SendCommand(updateCitizenCommand);
+            var updateTicketCommand = _mapper.Map<UpdateTicketCommand>(ticketViewModel);
+            _bus.SendCommand(updateTicketCommand);
         }
 
         public void Remove(Guid id)
         {
-            //throw new NotImplementedException();
+            var deleteTicketCommand = _mapper.Map<DeleteTicketCommand>(id);
+            _bus.SendCommand(deleteTicketCommand);
         }
     }
 }

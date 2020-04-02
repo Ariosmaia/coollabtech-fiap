@@ -37,6 +37,7 @@ namespace CoollabTech.Infra.CrossCutting.IoC
             services.AddScoped<IRequestHandler<UpdateCitizenCommand, bool>, CitizenCommandHandler>();
             services.AddScoped<IRequestHandler<RegisterTicketCommand, bool>, TicketCommandHandler>();
             services.AddScoped<IRequestHandler<UpdateTicketCommand, bool>, TicketCommandHandler>();
+            services.AddScoped<IRequestHandler<DeleteTicketCommand, bool>, TicketCommandHandler>();
 
             // Domain - Eventos
             services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler> ();
@@ -44,6 +45,7 @@ namespace CoollabTech.Infra.CrossCutting.IoC
             services.AddScoped<INotificationHandler<CitizenUpdatedEvent>, CitizenEventHandler>();
             services.AddScoped<INotificationHandler<TicketRegisteredEvent>, TicketEventHandler>();
             services.AddScoped<INotificationHandler<TicketUpdatedEvent>, TicketEventHandler>();
+            services.AddScoped<INotificationHandler<TicketDeletedEvent>, TicketEventHandler>();
 
             // Infra - Data
             services.AddScoped<ICitizenRepository, CitizenRepository>();

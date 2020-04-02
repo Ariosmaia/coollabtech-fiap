@@ -25,6 +25,25 @@ namespace CoollabTech.UI.Web.Controllers
         }
 
         [HttpGet]
+        [Route("create-ticket/")]
+        public IActionResult Create()
+        {
+            return View(new TicketViewModel());
+        }
+
+        [HttpPost]
+        [ValidateAntiForgeryToken]
+        [Route("create-ticket/")]
+        public IActionResult Create(TicketViewModel ticketViewModel)
+        {
+            if (!ModelState.IsValid) return View(ticketViewModel);
+
+            _ticketAppService.Add(ticketViewModel);
+
+            return RedirectToAction("Index");
+        }
+
+        [HttpGet]
         [Route("edit-ticket/{id:guid}")]
         public IActionResult Edit(Guid? id)
         {
@@ -54,20 +73,28 @@ namespace CoollabTech.UI.Web.Controllers
         }
 
         [HttpGet]
-        [Route("create-ticket/")]
-        public IActionResult Create()
+        [Route("delete-ticket/{id:guid}")]
+        public IActionResult Delete(Guid? id)
         {
-            return View(new TicketViewModel());
+            if (id == null)
+                return NotFound();
+
+            var ticketViewModel = _ticketAppService.GetById(id.Value);
+
+            if (ticketViewModel == null)
+            {
+                return NotFound();
+            }
+
+            return View(ticketViewModel);
         }
 
         [HttpPost]
         [ValidateAntiForgeryToken]
-        [Route("create-ticket/")]
-        public IActionResult Create(TicketViewModel ticketViewModel)
+        [Route("delete-ticket/{id:guid}")]
+        public IActionResult Delete(TicketViewModel ticketViewModel)
         {
-            if (!ModelState.IsValid) return View(ticketViewModel);
-
-            _ticketAppService.Add(ticketViewModel);
+            _ticketAppService.Remove(ticketViewModel.Id);
 
             return RedirectToAction("Index");
         }

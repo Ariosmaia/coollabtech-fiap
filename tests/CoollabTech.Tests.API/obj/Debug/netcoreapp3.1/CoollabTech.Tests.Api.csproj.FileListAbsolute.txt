@@ -181,7 +181,6 @@ C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\bin\Debug\netcoreapp3.1\z
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CommunicationUtilities.resources.dll
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.TestPlatform.CrossPlatEngine.resources.dll
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\bin\Debug\netcoreapp3.1\zh-Hant\Microsoft.VisualStudio.TestPlatform.Common.resources.dll
-C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\CoollabTech.Tests.Api.csprojAssemblyReference.cache
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\CoollabTech.Tests.Api.csproj.CoreCompileInputs.cache
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\CoollabTech.Tests.Api.AssemblyInfoInputs.cache
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\CoollabTech.Tests.Api.AssemblyInfo.cs
