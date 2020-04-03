@@ -2,7 +2,9 @@
 using CoollabTech.Domain.Tickets.Repository;
 using CoollabTech.Infra.Data.Context;
 using Microsoft.EntityFrameworkCore;
+using System;
 using System.Collections.Generic;
+using System.Linq;
 
 namespace CoollabTech.Infra.Data.Repository
 {
@@ -17,6 +19,14 @@ namespace CoollabTech.Infra.Data.Repository
             return DbSet.AsNoTracking()
                 .Include("TicketStatus")
                 .Include("TicketType");
+        }
+
+        public Ticket GetById(Guid id)
+        {
+            return DbSet.AsNoTracking()
+                .Include("TicketStatus")
+                .Include("TicketType")
+                .FirstOrDefault(t => t.Id == id);
         }
     }
 }
