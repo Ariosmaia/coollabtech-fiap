@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
@@ -22,15 +23,17 @@ namespace CoollabTech.Application.ViewModels
 		[DisplayName("Localicação")]
 		public string Localization { get; set; }
 
-		[DisplayName("Status Id")]
+		[DisplayName("Status")]
 		public Guid TicketStatusId { get; set; }
 
-		[DisplayName("Tipo Id")]
+		[DisplayName("Tipo")]
 		public Guid TicketTypeId { get; set; }
 
 		[DisplayName("Data de cadastro")]
 		public DateTime DateRegister { get; set; }
 
-		public TicketStatusViewModel TicketStatusViewModel { get; set; }
+		public IEnumerable<TicketStatusViewModel> TicketStatusViewModel { get; set; }
+		public IEnumerable<TicketTypeViewModel> TicketTypesViewModel { get; set; }
+		public IEnumerable<ServiceProviderViewModel> ServiceProvidersViewModel { get; set; }
 	}
 }

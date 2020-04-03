@@ -31,6 +31,9 @@ namespace CoollabTech.Infra.CrossCutting.IoC
             // Application
             services.AddScoped<ICitizenAppService, CitizenAppService>();
             services.AddScoped<ITicketAppService, TicketAppService>();
+            services.AddScoped<ITicketStatusAppService, TicketStatusAppService>();
+            services.AddScoped<ITicketTypeAppService, TicketTypeAppService>();
+            services.AddScoped<IServiceProviderAppService, ServiceProviderAppService>();
 
             // Domain - Commands
             services.AddScoped<IRequestHandler<RegisterCitizenCommand, bool>, CitizenCommandHandler>();

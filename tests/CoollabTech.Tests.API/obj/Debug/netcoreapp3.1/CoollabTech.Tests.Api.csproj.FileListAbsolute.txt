@@ -188,3 +188,4 @@ C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\C
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\CoollabTech.Tests.Api.dll
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\CoollabTech.Tests.Api.pdb
 C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\CoollabTech.Tests.Api.genruntimeconfig.cache
+C:\eu\git\coollabtech-fiap\tests\CoollabTech.Tests.API\obj\Debug\netcoreapp3.1\CoollabTech.Tests.Api.csprojAssemblyReference.cache

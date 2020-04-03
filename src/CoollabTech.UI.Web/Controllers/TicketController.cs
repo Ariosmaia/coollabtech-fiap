@@ -12,13 +12,19 @@ namespace CoollabTech.UI.Web.Controllers
     {
         private readonly ILogger<TicketController> _logger;
         private readonly ITicketAppService _ticketAppService;
+        private readonly ITicketStatusAppService _ticketStatusAppService;
+        private readonly ITicketTypeAppService _ticketTypeAppService;
+        private readonly IServiceProviderAppService _serviceProviderAppService;
 
-        public TicketController(ILogger<TicketController> logger, ITicketAppService ticketAppService)
+        public TicketController(ILogger<TicketController> logger, ITicketAppService ticketAppService, ITicketStatusAppService ticketStatusAppService, ITicketTypeAppService ticketTypeAppService, IServiceProviderAppService serviceProviderAppService)
         {
             _logger = logger;
             _ticketAppService = ticketAppService;
-            
+            _ticketStatusAppService = ticketStatusAppService;
+            _ticketTypeAppService = ticketTypeAppService;
+            _serviceProviderAppService = serviceProviderAppService;
         }
+
         public IActionResult Index()
         {
             return View(_ticketAppService.GetAll());
@@ -45,7 +51,12 @@ namespace CoollabTech.UI.Web.Controllers
         [Route("create-ticket/")]
         public IActionResult Create()
         {
-            return View(new TicketViewModel());
+            var ticketViewModel = new TicketViewModel();
+            ticketViewModel.TicketStatusViewModel = _ticketStatusAppService.GetAll();
+            ticketViewModel.TicketTypesViewModel = _ticketTypeAppService.GetAll();
+            ticketViewModel.ServiceProvidersViewModel = _serviceProviderAppService.GetAll();
+
+            return View(ticketViewModel);
         }
 
         [HttpGet]
