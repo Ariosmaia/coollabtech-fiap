@@ -65,6 +65,10 @@ namespace CoollabTech.UI.Web.Controllers
             if (id == null)
                 return NotFound();
 
+            ViewBag.TicketStatus = _ticketStatusAppService.GetAll();
+            ViewBag.TicketTypes = _ticketTypeAppService.GetAll();
+            ViewBag.ServiceProviders = _serviceProviderAppService.GetAll();
+
             var ticketViewModel = _ticketAppService.GetById(id.Value);
 
             if (ticketViewModel == null)
