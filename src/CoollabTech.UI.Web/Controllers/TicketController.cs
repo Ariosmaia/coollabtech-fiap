@@ -27,6 +27,8 @@ namespace CoollabTech.UI.Web.Controllers
 
         public IActionResult Index()
         {
+            var teste = _ticketAppService.GetAll();
+
             return View(_ticketAppService.GetAll());
         }
 
@@ -51,12 +53,11 @@ namespace CoollabTech.UI.Web.Controllers
         [Route("create-ticket/")]
         public IActionResult Create()
         {
-            var ticketViewModel = new TicketViewModel();
-            ticketViewModel.TicketStatusViewModel = _ticketStatusAppService.GetAll();
-            ticketViewModel.TicketTypesViewModel = _ticketTypeAppService.GetAll();
-            ticketViewModel.ServiceProvidersViewModel = _serviceProviderAppService.GetAll();
+            ViewBag.TicketStatus = _ticketStatusAppService.GetAll();
+            ViewBag.TicketTypes = _ticketTypeAppService.GetAll();
+            ViewBag.ServiceProviders = _serviceProviderAppService.GetAll();
 
-            return View(ticketViewModel);
+            return View(new TicketViewModel());
         }
 
         [HttpGet]
