@@ -16,6 +16,9 @@
                 @Html.DisplayNameFor(model => model.Id)
             </th>
             <th>
+                @Html.DisplayNameFor(model => model.ServiceProviderId)
+            </th>
+            <th>
                 @Html.DisplayNameFor(model => model.TicketTypeId)
             </th>
             <th>
@@ -39,6 +42,9 @@
             <tr>
                 <td>
                     @Html.DisplayFor(modelItem => item.Id)
+                </td>
+                <td>
+                    @Html.DisplayFor(modelItem => item.TicketType.ServiceProvider.Name)
                 </td>
                 <td>
                     @Html.DisplayFor(modelItem => item.TicketType.Name)

@@ -1,6 +1,5 @@
 ﻿using CoollabTech.Domain.Tickets;
 using System;
-using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 
@@ -32,6 +31,9 @@ namespace CoollabTech.Application.ViewModels
 		public Guid TicketTypeId { get; set; }
 		public TicketType TicketType { get; set; }
 
+		[DisplayName("Prestador de serviço")]
+		public Guid ServiceProviderId { get; set; }
+		
 		[DisplayName("Data de cadastro")]
 		public DateTime DateRegister { get; set; }
 	}

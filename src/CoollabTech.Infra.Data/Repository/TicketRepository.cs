@@ -16,16 +16,20 @@ namespace CoollabTech.Infra.Data.Repository
 
         public IEnumerable<Ticket> GetAll()
         {
-            return DbSet.AsNoTracking()
-                .Include("TicketStatus")
-                .Include("TicketType");
+            return DbSet
+                .AsNoTracking()
+                .Include(tst => tst.TicketStatus)
+                .Include(tty => tty.TicketType)
+                .Include(spr => spr.TicketType.ServiceProvider);
         }
 
         public Ticket GetById(Guid id)
         {
-            return DbSet.AsNoTracking()
-                .Include("TicketStatus")
-                .Include("TicketType")
+            return DbSet
+                .AsNoTracking()
+                .Include(tst => tst.TicketStatus)
+                .Include(tty => tty.TicketType)
+                .Include(spr => spr.TicketType.ServiceProvider)
                 .FirstOrDefault(t => t.Id == id);
         }
     }

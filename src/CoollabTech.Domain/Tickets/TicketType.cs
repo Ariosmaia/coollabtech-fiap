@@ -1,10 +1,6 @@
-﻿using CoollabTech.Domain.Citizen.Enums;
-using CoollabTech.Domain.Core.Models;
+﻿using CoollabTech.Domain.Core.Models;
 using FluentValidation;
 using System;
-using System.Collections.Generic;
-using System.ComponentModel.DataAnnotations.Schema;
-using System.Text;
 
 namespace CoollabTech.Domain.Tickets
 {
