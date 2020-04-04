@@ -2,10 +2,12 @@
 using CoollabTech.Application.Interfaces;
 using CoollabTech.Application.ViewModels;
 using CoollabTech.Domain.Interfaces;
+using CoollabTech.Domain.Tickets;
 using CoollabTech.Domain.Tickets.Commands;
 using CoollabTech.Domain.Tickets.Repository;
 using System;
 using System.Collections.Generic;
+using System.Linq.Expressions;
 
 namespace CoollabTech.Application.Services
 {
@@ -30,6 +32,11 @@ namespace CoollabTech.Application.Services
         public IEnumerable<TicketViewModel> GetAll()
         {
             return _mapper.Map<IEnumerable<TicketViewModel>>(_ticketRepository.GetAll());
+        }
+
+        public IEnumerable<TicketViewModel> Find(Expression<Func<Ticket, bool>> predicate)
+        {
+            return _mapper.Map<IEnumerable<TicketViewModel>>(_ticketRepository.Find(predicate));
         }
 
         public void Add(TicketViewModel ticketViewModel)

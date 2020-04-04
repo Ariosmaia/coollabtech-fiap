@@ -5,6 +5,7 @@ using Microsoft.EntityFrameworkCore;
 using System;
 using System.Collections.Generic;
 using System.Linq;
+using System.Linq.Expressions;
 
 namespace CoollabTech.Infra.Data.Repository
 {
@@ -12,6 +13,16 @@ namespace CoollabTech.Infra.Data.Repository
     {
         public TicketRepository(CoollabTechContext context) : base(context)
         {
+        }
+
+        public IEnumerable<Ticket> Find(Expression<Func<Ticket, bool>> predicate)
+        {
+            return DbSet
+                .AsNoTracking()
+                .Include(tst => tst.TicketStatus)
+                .Include(tty => tty.TicketType)
+                .Include(spr => spr.TicketType.ServiceProvider)
+                .Where(predicate);
         }
 
         public IEnumerable<Ticket> GetAll()

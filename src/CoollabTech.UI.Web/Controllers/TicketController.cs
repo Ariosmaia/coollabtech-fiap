@@ -1,10 +1,12 @@
 ﻿using CoollabTech.Application.Interfaces;
 using CoollabTech.Application.ViewModels;
+using CoollabTech.Domain.Tickets;
 using CoollabTech.UI.Web.Models;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Logging;
 using System;
 using System.Diagnostics;
+using System.Linq.Expressions;
 
 namespace CoollabTech.UI.Web.Controllers
 {
@@ -25,9 +27,14 @@ namespace CoollabTech.UI.Web.Controllers
             _serviceProviderAppService = serviceProviderAppService;
         }
 
-        public IActionResult Index()
+        public IActionResult Index(Guid? serviceProviderId, Guid? ticketTypeId, Guid? ticketStatusId)
         {
-            return View(_ticketAppService.GetAll());
+            LoadFilters();
+
+            if (serviceProviderId == null && ticketTypeId == null && ticketStatusId == null)
+                return View(_ticketAppService.GetAll());
+            else
+                return View(_ticketAppService.Find(x => x.TicketTypeId == ticketTypeId && x.TicketStatusId == ticketStatusId));
         }
 
         [HttpGet]
@@ -134,6 +141,13 @@ namespace CoollabTech.UI.Web.Controllers
         public IActionResult Error()
         {
             return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+        }
+
+        private void LoadFilters()
+        {
+            ViewBag.TicketStatus = _ticketStatusAppService.GetAll();
+            ViewBag.TicketTypes = _ticketTypeAppService.GetAll();
+            ViewBag.ServiceProviders = _serviceProviderAppService.GetAll();
         }
     }
 }
