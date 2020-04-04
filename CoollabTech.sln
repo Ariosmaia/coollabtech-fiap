@@ -23,19 +23,24 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoollabTech.Domain.Core", "
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "6 - Tests", "6 - Tests", "{00A1549E-94E5-4DBA-9E6F-6BF7A33F5A09}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoollabTech.Tests.Api", "tests\CoollabTech.Tests.API\CoollabTech.Tests.Api.csproj", "{E8A3B8DD-62A4-4379-84A3-235523470754}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoollabTech.Tests.Api", "tests\CoollabTech.Tests.API\CoollabTech.Tests.Api.csproj", "{E8A3B8DD-62A4-4379-84A3-235523470754}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoolabTech.Tests.Domain", "tests\CoolabTech.Tests.Domain\CoolabTech.Tests.Domain.csproj", "{C6EB7514-EF7B-4C97-A55A-CDA20F9E78BC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoolabTech.Tests.Domain", "tests\CoolabTech.Tests.Domain\CoolabTech.Tests.Domain.csproj", "{C6EB7514-EF7B-4C97-A55A-CDA20F9E78BC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoollabTech.Infra.Data", "src\CoollabTech.Infra.Data\CoollabTech.Infra.Data.csproj", "{B6BD421A-793E-41A3-A1C6-74BD402B5EE6}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoollabTech.Infra.Data", "src\CoollabTech.Infra.Data\CoollabTech.Infra.Data.csproj", "{B6BD421A-793E-41A3-A1C6-74BD402B5EE6}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoollabTech.Infra.CrossCutting.Identity", "src\CoollabTech.Infra.CrossCutting.Identity\CoollabTech.Infra.CrossCutting.Identity.csproj", "{6031CB74-821C-4F7A-ADFE-50CAE188EB25}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoollabTech.Infra.CrossCutting.Identity", "src\CoollabTech.Infra.CrossCutting.Identity\CoollabTech.Infra.CrossCutting.Identity.csproj", "{6031CB74-821C-4F7A-ADFE-50CAE188EB25}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoollabTech.Infra.CrossCutting.IoC", "src\CoollabTech.Infra.CrossCutting.IoC\CoollabTech.Infra.CrossCutting.IoC.csproj", "{03B39184-1AE5-44F7-862D-96534D99951F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoollabTech.Infra.CrossCutting.IoC", "src\CoollabTech.Infra.CrossCutting.IoC\CoollabTech.Infra.CrossCutting.IoC.csproj", "{03B39184-1AE5-44F7-862D-96534D99951F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoollabTech.UI.Web", "src\CoollabTech.UI.Web\CoollabTech.UI.Web.csproj", "{5634128E-C483-4A24-ABAD-9BC84AB4AAAF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoollabTech.UI.Web", "src\CoollabTech.UI.Web\CoollabTech.UI.Web.csproj", "{5634128E-C483-4A24-ABAD-9BC84AB4AAAF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoollabTech.Application", "src\CoollabTech.Application\CoollabTech.Application.csproj", "{3423C9C3-F130-443F-93DF-D78281CB3545}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CoollabTech.Application", "src\CoollabTech.Application\CoollabTech.Application.csproj", "{3423C9C3-F130-443F-93DF-D78281CB3545}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - ReadMe", "0 - ReadMe", "{BEF16A2B-8590-46B2-BD8A-ED952BAE325B}"
+	ProjectSection(SolutionItems) = preProject
+		readme.txt = readme.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
