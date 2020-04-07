@@ -5,7 +5,6 @@
     ViewData["ActivePage"] = ManageNavPages.Email;
 }
 
-<h4>@ViewData["Title"]</h4>
 <partial name="_StatusMessage" model="Model.StatusMessage" />
 <div class="row">
     <div class="col-md-6">
@@ -25,7 +24,7 @@
                 else
                 {
                     <input asp-for="Email" class="form-control" disabled />
-                    <button id="email-verification" type="submit" asp-page-handler="SendVerificationEmail" class="btn btn-link">Send verification email</button>
+                    <button id="email-verification" type="submit" asp-page-handler="SendVerificationEmail" class="btn btn-link">Enviar e-mail de verificação</button>
                 }
             </div>
             <div class="form-group">
@@ -50,16 +49,24 @@
             </div>
             <div class="form-group">
                 <label asp-for="Input.Gender"></label>
-                <input asp-for="Input.Gender" class="form-control" />
+                <select asp-for="Input.Gender"
+                        asp-items="Html.GetEnumSelectList<CoollabTech.Domain.Citizen.Enums.EGender>()" class="form-control">
+                    <option selected="selected" value="">Sexo</option>
+                </select>
                 <span asp-validation-for="Input.Gender" class="text-danger"></span>
             </div>
+            @*<div class="form-group">
+                <label asp-for="Input.Gender"></label>
+                <input asp-for="Input.Gender" class="form-control" />
+                <span asp-validation-for="Input.Gender" class="text-danger"></span>
+            </div>*@
             <div hidden class="form-group">
                 <label asp-for="Input.Email"></label>
                 <input asp-for="Input.Email" class="form-control" />
                 <span asp-validation-for="Input.Email" class="text-danger"></span>
             </div>
 
-            <button id="change-email-button" type="submit" asp-page-handler="ChangeEmail" class="btn btn-primary">Change email</button>
+            <button id="change-email-button" type="submit" asp-page-handler="ChangeEmail" class="btn btn-success">Salvar</button>
         </form>
     </div>
 </div>

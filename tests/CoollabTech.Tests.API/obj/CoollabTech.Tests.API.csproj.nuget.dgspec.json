@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\eu\\git\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj": {}
+    "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj": {}
   },
   "projects": {
-    "C:\\eu\\git\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj": {
+    "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\eu\\git\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
+        "projectUniqueName": "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
         "projectName": "CoollabTech.Tests.Api",
-        "projectPath": "C:\\eu\\git\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
+        "projectPath": "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
         "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\eu\\git\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\obj\\",
+        "outputPath": "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Microsoft\\Xamarin\\NuGet\\",

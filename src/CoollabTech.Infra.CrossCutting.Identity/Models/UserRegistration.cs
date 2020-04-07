@@ -7,15 +7,15 @@ namespace CoollabTech.Infra.CrossCutting.Identity.Models
 {
     public class UserRegistration
     {
-        [Required(ErrorMessage = "The {0} field is mandatory")]
-        [EmailAddress(ErrorMessage = "The field {0} is in an invalid format")]
+        [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        [EmailAddress(ErrorMessage = "O campo {0} está em um formato inválido")]
         public string Email { get; set; }
 
-        [Required(ErrorMessage = "The {0} field is mandatory")]
-        [StringLength(100, ErrorMessage = "The {0} field must be between {2} and {1} characters", MinimumLength = 6)]
+        [Required(ErrorMessage = "O campo {0} é obrigatório")]
+        [StringLength(100, ErrorMessage = "O campo {0} deve ser entre {2} e {1} caracteres", MinimumLength = 6)]
         public string Password { get; set; }
 
-        [Compare("Password", ErrorMessage = "Passwords do not match.")]
+        [Compare("Password", ErrorMessage = "As senhas não correspondem")]
         public string PasswordConfirm { get; set; }
     }
 }

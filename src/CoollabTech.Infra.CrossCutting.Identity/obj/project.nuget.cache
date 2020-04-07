@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "36biCO5iPaZc4o5cYNbtoeyzpLkUq23xoZB+tD/1PPsZPpOCCJQm11io+Mh9L4ge08m4HyF0VX6KxGEEPn0+1A==",
+  "dgSpecHash": "Y+sp42r17bRadzfKbnazB7JwnqQPGeOXieovtwR33koJieRKKM+GASzLDX1R3x4a1NZBh6jwTaKjCNs6lf3bLg==",
   "success": true,
-  "projectFilePath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj",
+  "projectFilePath": "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",

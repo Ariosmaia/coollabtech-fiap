@@ -1,13 +1,17 @@
 ﻿@model CoollabTech.Application.ViewModels.TicketViewModel
 
 @{
-    ViewData["Title"] = "View";
+    ViewData["Title"] = "Novo";
 }
 
-<h1>View</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-area="" asp-controller="home" asp-action="index">Dashboard</a></li>
+            <li class="breadcrumb-item"><a asp-action="Index">Lista de Chamados</a></li>
+            <li class="breadcrumb-item active" aria-current="#">Novo Chamado</li>
+        </ol>
+    </nav>
 
-<h4>TicketViewModel</h4>
-<hr />
 <div class="row">
     <div class="col-md-4">
         <form asp-action="Create">
@@ -35,14 +39,10 @@
                 <span asp-validation-for="Localization" class="text-danger"></span>
             </div>
             <div class="form-group">
-                <input type="submit" value="Create" class="btn btn-primary" />
+                <input type="submit" value="Salvar" class="btn btn-success btn-main" />
             </div>
         </form>
     </div>
-</div>
-
-<div>
-    <a asp-action="Index">Back to List</a>
 </div>
 
 @section Scripts {

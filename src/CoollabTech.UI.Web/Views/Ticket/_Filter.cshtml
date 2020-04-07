@@ -14,8 +14,14 @@
                 <label class="control-label">Status</label>
                 @Html.DropDownList("TicketStatusId", new SelectList(ViewBag.TicketStatus, "Id", "Name"), null, new { @class = "form-control" })
             </div>
-            <div class="form-group">
-                <input type="submit" value="Filtrar" class="btn btn-primary" />
+            <div class="form-group row">
+                <div class="col-sm-2"></div>
+                <div class="col-sm-4">
+                    <input type="submit" value="Filtrar" class="btn btn-primary btn-main" />
+                </div>
+                <div class="col-sm-4">
+                    <a class="btn btn-secondary btn-main" asp-action="Create">Novo</a>
+                </div>                
             </div>
         </form>
     </div>

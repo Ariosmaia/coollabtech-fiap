@@ -34,6 +34,7 @@ namespace CoollabTech.Application.ViewModels
         public string Email { get;  set; }
 
         [Required(ErrorMessage = "O sexo é requerido")]
+        [DisplayName("Sexo")]
         public EGender Gender { get;  set; }
 
     }

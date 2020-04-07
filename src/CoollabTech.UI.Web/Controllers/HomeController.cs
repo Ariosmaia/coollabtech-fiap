@@ -12,6 +12,7 @@ using CoollabTech.Application.ViewModels;
 
 namespace CoollabTech.UI.Web.Controllers
 {
+    [Authorize]
     public class HomeController : Controller
     {
         private readonly ILogger<HomeController> _logger;
@@ -24,6 +25,11 @@ namespace CoollabTech.UI.Web.Controllers
             
         }
         public IActionResult Index()
+        {
+            return View();
+        }
+
+        public IActionResult Users()
         {
             return View(_citizenAppService.GetAll());
         }

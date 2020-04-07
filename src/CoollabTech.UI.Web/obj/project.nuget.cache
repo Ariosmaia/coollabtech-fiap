@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "XiR8kCtCM4xXV8JUYWTSpRE6/yGnQZ71xaqVvUs+oxIH1nnjd7ObvZYnRgnlmlvPPAxikWF8B2k3vTpYbWKmgA==",
+  "dgSpecHash": "VJqqeAwdxicPimIGKxmUuxFGqnIsyJlAEkSi1hLM01Ft8qFYbv5RTt9G+XbJyFqhYOlgTAzYWK1UCmA/NIrCWw==",
   "success": true,
-  "projectFilePath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\CoollabTech.UI.Web.csproj",
+  "projectFilePath": "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\CoollabTech.UI.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

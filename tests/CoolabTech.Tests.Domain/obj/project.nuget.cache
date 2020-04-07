@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "wjps2gwK+ky8hdtvAFCejOdpVBeimZrC75rI8WlSwgzvrlJoCcEYGZpbHaasEd1KBmymjU2yVxKBhb1GhxD8VQ==",
+  "dgSpecHash": "nV7St56mFOJumPA5dy93iF+jgV5LrvqwhLESNty5+UPZgvSTNoiZCfFUMdhgPtN9BV+8jXCeKWlYnI3jzacDFw==",
   "success": true,
-  "projectFilePath": "C:\\eu\\git\\coollabtech-fiap\\tests\\CoolabTech.Tests.Domain\\CoolabTech.Tests.Domain.csproj",
+  "projectFilePath": "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\tests\\CoolabTech.Tests.Domain\\CoolabTech.Tests.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",

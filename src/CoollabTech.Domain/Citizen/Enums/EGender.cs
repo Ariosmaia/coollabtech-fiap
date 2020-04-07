@@ -6,7 +6,7 @@ namespace CoollabTech.Domain.Citizen.Enums
 {
     public enum EGender
     {
-        Male = 'M',
-        Female = 'F'
+        Masculino = 'M',
+        Feminino = 'F'
     }
 }

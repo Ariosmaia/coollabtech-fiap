@@ -85,10 +85,10 @@ namespace CoollabTech.UI.Web
             app.UseAuthorization();
 
             app.UseEndpoints(endpoints =>
-            {
-                endpoints.MapControllerRoute(
+            {                
+                endpoints.MapControllerRoute(                    
                     name: "default",
-                    pattern: "{controller=Home}/{action=Index}/{id?}");
+                    pattern: "{controller=Home}/{action=index}/{id?}");                    
                 endpoints.MapRazorPages();
             });
         }

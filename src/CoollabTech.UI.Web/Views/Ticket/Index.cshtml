@@ -1,24 +1,25 @@
 ﻿@model IEnumerable<CoollabTech.Application.ViewModels.TicketViewModel>
 
 @{
-    ViewData["Title"] = "Index";
+    ViewData["Title"] = "Ticket";
 }
 
-<h1>Index</h1>
+    <nav aria-label="breadcrumb">
+        <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a asp-area="" asp-controller="home" asp-action="index">Dashboard</a></li>
+            <li class="breadcrumb-item active" aria-current="#">Listar Chamados</li>
+        </ol>
+    </nav>
 
 @await Html.PartialAsync("_Filter.cshtml")
+        
+
 
 <hr />
 
-<p>
-    <a asp-action="Create">Create New</a>
-</p>
 <table class="table">
-    <thead>
+    <thead class="thead-dark">
         <tr>
-            <th>
-                @Html.DisplayNameFor(model => model.Id)
-            </th>
             <th>
                 @Html.DisplayNameFor(model => model.ServiceProviderId)
             </th>
@@ -27,9 +28,6 @@
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.TicketStatusId)
-            </th>
-            <th>
-                @Html.DisplayNameFor(model => model.Description)
             </th>
             <th>
                 @Html.DisplayNameFor(model => model.Localization)
@@ -43,34 +41,40 @@
     <tbody>
         @foreach (var item in Model)
         {
-            <tr>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Id)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TicketType.ServiceProvider.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TicketType.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.TicketStatus.Name)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Description)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.Localization)
-                </td>
-                <td>
-                    @Html.DisplayFor(modelItem => item.DateRegister)
-                </td>
-                <td>
-                    @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
-                    @Html.ActionLink("Details", "Details", new { id = item.Id }) |
-                    @Html.ActionLink("Delete", "Delete", new { id = item.Id })
-                </td>
-            </tr>
+        <tr>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketType.ServiceProvider.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketType.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.TicketStatus.Name)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.Localization)
+            </td>
+            <td>
+                @Html.DisplayFor(modelItem => item.DateRegister)
+            </td>
+            @*<td>
+
+                @Html.ActionLink("Edit", "Edit", new { id = item.Id }) |
+                @Html.ActionLink("Details", "Details", new { id = item.Id }) |
+                @Html.ActionLink("Delete", "Delete", new { id = item.Id })
+            </td>*@
+            <td>
+                <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-secondary">
+                    Editar
+                </a>
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">
+                    Detalhes
+                </a>
+                <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">
+                    Excluir
+                </a>
+            </td>            
+        </tr>
         }
     </tbody>
 </table>
