@@ -1,5 +1,9 @@
+PRÃ‰-REQUISITOS
+Sql Server 
+NET Core 3.1 SDK
+
 PASSO 1
-Ajustar arquivo "appsettings.json" com sua configuração de sql server
+Ajustar arquivo "appsettings.json" com sua configuraÃ§Ã£o de sql server
 
 PASSO 2
 Abrir Package Manager Console
