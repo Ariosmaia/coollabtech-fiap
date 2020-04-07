@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "fVuhk/Cx+OupP0dkIfm2WqXv8BkdKL6lWfVy7mlEAvsGYNJA7TfQ/GyLSBZnJFXU2ZnfnrmsGoEU034tQ7vuLw==",
+  "dgSpecHash": "DhiQ7qOYGT863FvrIDOn04cxkCOYOpUVS+jPc9Y1ZBEtYp2TkI7cfyRxhhDEMQnfbmB1kR6xSXVRwG76w3iIhg==",
   "success": true,
-  "projectFilePath": "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj",
+  "projectFilePath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

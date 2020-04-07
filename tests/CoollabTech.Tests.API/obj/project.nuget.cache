@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "SG5GUkruIVnfHE3M7rJGmY391gZz7fftGFqXjkF/+YUYaZNhmcYfBVVYyC8zviDsb3Wz1ac+4e+qTd4v6bku9A==",
+  "dgSpecHash": "JK/liCw70CE7hOyuh8obYllXJ6e2RY9Qc/EUTHryjDhHYkLE5/DURxje+E6Nhulz4KPCxF3Cv1y/PT9OzzCTCw==",
   "success": true,
-  "projectFilePath": "C:\\eu\\git\\CARLOS\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
+  "projectFilePath": "C:\\eu\\git\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\diego\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",
     "C:\\Users\\diego\\.nuget\\packages\\microsoft.codecoverage\\16.5.0\\microsoft.codecoverage.16.5.0.nupkg.sha512",
