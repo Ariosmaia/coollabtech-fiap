@@ -10,6 +10,7 @@ using CoollabTech.Domain.Tickets.Commands;
 using CoollabTech.Domain.Tickets.Events;
 using CoollabTech.Domain.Tickets.Repository;
 using CoollabTech.Infra.CrossCutting.Identity.Authorization;
+using CoollabTech.Infra.CrossCutting.Identity.Models;
 using CoollabTech.Infra.Data.Repository;
 using CoollabTech.Infra.Data.UoW;
 using MediatR;
@@ -38,14 +39,16 @@ namespace CoollabTech.Infra.CrossCutting.IoC
             // Domain - Commands
             services.AddScoped<IRequestHandler<RegisterCitizenCommand, bool>, CitizenCommandHandler>();
             services.AddScoped<IRequestHandler<UpdateCitizenCommand, bool>, CitizenCommandHandler>();
+            services.AddScoped<IRequestHandler<DeleteCitizenCommand, bool>, CitizenCommandHandler>();
             services.AddScoped<IRequestHandler<RegisterTicketCommand, bool>, TicketCommandHandler>();
             services.AddScoped<IRequestHandler<UpdateTicketCommand, bool>, TicketCommandHandler>();
             services.AddScoped<IRequestHandler<DeleteTicketCommand, bool>, TicketCommandHandler>();
 
             // Domain - Eventos
-            services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler> ();
+            services.AddScoped<INotificationHandler<DomainNotification>, DomainNotificationHandler>();
             services.AddScoped<INotificationHandler<CitizenRegisteredEvent>, CitizenEventHandler>();
             services.AddScoped<INotificationHandler<CitizenUpdatedEvent>, CitizenEventHandler>();
+            services.AddScoped<INotificationHandler<CitizenDeletedEvent>, CitizenEventHandler>();
             services.AddScoped<INotificationHandler<TicketRegisteredEvent>, TicketEventHandler>();
             services.AddScoped<INotificationHandler<TicketUpdatedEvent>, TicketEventHandler>();
             services.AddScoped<INotificationHandler<TicketDeletedEvent>, TicketEventHandler>();
@@ -59,6 +62,7 @@ namespace CoollabTech.Infra.CrossCutting.IoC
             services.AddScoped<IUnitOfWork, UnitOfWork>();
 
             // Infra - Identity
+            services.AddScoped<IUser, AspNetUser>();
 
         }
     }

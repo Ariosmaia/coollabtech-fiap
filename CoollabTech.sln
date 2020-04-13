@@ -42,6 +42,8 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "0 - ReadMe", "0 - ReadMe", 
 		readme.txt = readme.txt
 	EndProjectSection
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CoollabTech.Services.Api", "src\CoollabTech.Services.Api\CoollabTech.Services.Api.csproj", "{5628627D-A61D-4B22-81A6-9E78B8FA8F25}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -84,6 +86,10 @@ Global
 		{3423C9C3-F130-443F-93DF-D78281CB3545}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3423C9C3-F130-443F-93DF-D78281CB3545}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3423C9C3-F130-443F-93DF-D78281CB3545}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5628627D-A61D-4B22-81A6-9E78B8FA8F25}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5628627D-A61D-4B22-81A6-9E78B8FA8F25}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5628627D-A61D-4B22-81A6-9E78B8FA8F25}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5628627D-A61D-4B22-81A6-9E78B8FA8F25}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -100,6 +106,7 @@ Global
 		{03B39184-1AE5-44F7-862D-96534D99951F} = {4158F079-0204-494B-B871-8B7554349D3B}
 		{5634128E-C483-4A24-ABAD-9BC84AB4AAAF} = {A43E2DFD-70AF-42C9-945C-8A63833474A5}
 		{3423C9C3-F130-443F-93DF-D78281CB3545} = {B7940185-7392-4500-BAF4-640AFF1B4CE9}
+		{5628627D-A61D-4B22-81A6-9E78B8FA8F25} = {5F137CC6-9615-4B74-A01E-EFC2E19AE77F}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {3EEB4C20-FC31-428F-909C-CE6F8455B462}

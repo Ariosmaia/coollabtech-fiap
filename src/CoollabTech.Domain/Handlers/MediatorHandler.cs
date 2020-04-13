@@ -25,12 +25,12 @@ namespace CoollabTech.Domain.Handlers
             await _mediator.Send(mediatorCommand);
         }
 
-        public async Task PublishEvent<T>(T mediatorEvent) where T : Event
+        public Task PublishEvent<T>(T @event) where T : Event
         {
-            if (!mediatorEvent.MessageType.Equals("DomainNotification"))
+            //if (!@event.MessageType.Equals("DomainNotification"))
                 //_eventStore?.SalvarEvento(mediatorEvent);
 
-            await _mediator.Publish(mediatorEvent);
+            return _mediator.Publish(@event);
         }
     }
 }

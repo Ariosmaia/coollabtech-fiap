@@ -11,7 +11,7 @@ namespace CoollabTech.Application.Interfaces
         void Add(CitizenViewModel citizenViewModel);
         void Update(CitizenViewModel citizenViewModel);
         IEnumerable<CitizenViewModel> GetAll();
-        //void Remove(Guid id);
+        void Remove(Guid id);
         //IEnumerable<CitizenViewModel> Find(Expression<Func<CitizenViewModel, bool>> predicate);
     }
 }

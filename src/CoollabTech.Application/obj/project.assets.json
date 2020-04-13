@@ -322,7 +322,7 @@
       ]
     },
     "Microsoft.NETCore.Platforms/1.1.0": {
-      "sha512": "kz0PEW2lhqygehI/d6XsPCQzD7ff7gUJaVGPVETX611eadGsA3A877GdSlU0LRVMCTH/+P3o2iDTak+S08V2+A==",
+      "sha512": "Cbo+GtZaNEH1mHjo5zA24LaMaXuta5eF+rZEXBfd9Vbif15eZTQcvt1b3SLE6TPYm/Omdye7YoHfmQfyOZIbTQ==",
       "type": "package",
       "path": "microsoft.netcore.platforms/1.1.0",
       "files": [
@@ -337,12 +337,11 @@
       ]
     },
     "Microsoft.NETCore.Targets/1.1.0": {
-      "sha512": "aOZA3BWfz9RXjpzt0sRJJMjAscAUm3Hoa4UWAfceV9UTYxgwZ1lZt5nO2myFf+/jetYQo4uTP7zS8sJY67BBxg==",
+      "sha512": "c9zEna0p9zZYrEjYLoJ6np31cm/yoEiN+MRuOKy/hIi3csyWZS/qFai43L+4hQLeGuHCts8A1Fx6aYkuDRVk2w==",
       "type": "package",
       "path": "microsoft.netcore.targets/1.1.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/netstandard1.0/_._",
@@ -439,7 +438,7 @@
       ]
     },
     "System.IO/4.3.0": {
-      "sha512": "3qjaHvxQPDpSOYICjUoTsmoq5u6QJAFRUITgeT/4gqkF1bajbSmb1kwSxEA8AHlofqgcKJcM8udgieRNhaJ5Cg==",
+      "sha512": "hP4ZB7lgWtbURrWh9xyb9jy3CxcNxXdob0hq2IJ5M9z83EDXPgIaNetanPb5UqL/dQA0NXNgg4yIGsmenQyWdw==",
       "type": "package",
       "path": "system.io/4.3.0",
       "files": [
@@ -519,7 +518,7 @@
       ]
     },
     "System.Reflection/4.3.0": {
-      "sha512": "KMiAFoW7MfJGa9nDFNcfu+FpEdiHpWgTcS2HdMpDvt9saK3y/G4GwprPyzqjFH9NTaGPQeWNHU+iDlDILj96aQ==",
+      "sha512": "nw7WHwh33jeGZVJUg6RZc9kxIhD7hQVf5O85iNWThbi1gABw0AS27gAdz+ESJMlJWm5vt9/Zzjh1i962DzH3ww==",
       "type": "package",
       "path": "system.reflection/4.3.0",
       "files": [
@@ -599,12 +598,11 @@
       ]
     },
     "System.Reflection.Emit/4.3.0": {
-      "sha512": "228FG0jLcIwTVJyz8CLFKueVqQK36ANazUManGaJHkO0icjiIypKW7YLWLIWahyIkdh5M7mV2dJepllLyA1SKg==",
+      "sha512": "Ps+tTEAYgoegkeZ3DXfTrmfoVx3l1pz9nv58BxtwoqseMNOBckslOGWnDWiLIsT6U+9mdreo7bM10n48AjNoXg==",
       "type": "package",
       "path": "system.reflection.emit/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -635,12 +633,11 @@
       ]
     },
     "System.Reflection.Emit.ILGeneration/4.3.0": {
-      "sha512": "59tBslAk9733NXLrUJrwNZEzbMAcu8k344OYo+wfSVygcgZ9lgBdGIzH/nrg3LYhXceynyvTc8t5/GD4Ri0/ng==",
+      "sha512": "y2W9SwE18AyhJ4PZcGp9ZjueU112QVsyG55yBnegez54yGlkyFmrCVvFRW/tLIScZZT3emRY8lpkNmMDwSPfWw==",
       "type": "package",
       "path": "system.reflection.emit.ilgeneration/4.3.0",
       "files": [
         ".nupkg.metadata",
-        ".signature.p7s",
         "ThirdPartyNotices.txt",
         "dotnet_library_license.txt",
         "lib/MonoAndroid10/_._",
@@ -680,7 +677,7 @@
       ]
     },
     "System.Reflection.Primitives/4.3.0": {
-      "sha512": "5RXItQz5As4xN2/YUDxdpsEkMhvw3e6aNveFXUn4Hl/udNTCNhnKp8lT9fnc3MhvGKh1baak5CovpuQUXHAlIA==",
+      "sha512": "9vQOEBxrGaAHYs4w9PG3DgMvu9n2i6cP3wN1aXWLVRzHfIT+A3QandOnbKZ3cjjNknIV5JSzPnffvpWAr+OGVg==",
       "type": "package",
       "path": "system.reflection.primitives/4.3.0",
       "files": [
@@ -736,7 +733,7 @@
       ]
     },
     "System.Runtime/4.3.0": {
-      "sha512": "JufQi0vPQ0xGnAczR13AUFglDyVYt4Kqnz1AZaiKZ5+GICq0/1MH/mO/eAJHt/mHW1zjKBJd7kV26SrxddAhiw==",
+      "sha512": "kvY7I1U6nvv3qwUzM0SR4srt34PhW1dCJkYM02ubVb3wdjtTCM/6TEABL0t+VAHKIErlT1VU+TcJk4TfDLEWGg==",
       "type": "package",
       "path": "system.runtime/4.3.0",
       "files": [
@@ -827,7 +824,7 @@
       ]
     },
     "System.Text.Encoding/4.3.0": {
-      "sha512": "BiIg+KWaSDOITze6jGQynxg64naAPtqGHBwDrLaCtixsa5bKiR8dpPOHA7ge3C0JJQizJE+sfkz1wV+BAKAYZw==",
+      "sha512": "CeCUHQClw/8QMQxI2TPaeV3XAE8yr7xyrdXc84QsnfG4dfJtWcm3/HNaTaNju/6r1cLXHPaEWxLtxs7wEb33Sg==",
       "type": "package",
       "path": "system.text.encoding/4.3.0",
       "files": [
@@ -894,7 +891,7 @@
       ]
     },
     "System.Threading.Tasks/4.3.0": {
-      "sha512": "LbSxKEdOUhVe8BezB/9uOGGppt+nZf6e1VFyw6v3DN6lqitm0OSn2uXMOdtP0M3W4iMcqcivm2J6UgqiwwnXiA==",
+      "sha512": "Ul2WmR79T8UelPrwNmfH39cjhyvuMvTTrrJ2mRm32efXCUGHiILoPxA4DgRmGP24ASXoNUECYcq0SDn/wuFRhw==",
       "type": "package",
       "path": "system.threading.tasks/4.3.0",
       "files": [
@@ -978,27 +975,24 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\diego\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
+    "C:\\Users\\Allan\\.nuget\\packages\\": {},
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj",
+      "projectUniqueName": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj",
       "projectName": "CoollabTech.Application",
-      "projectPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj",
-      "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-      "outputPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Application\\obj\\",
+      "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj",
+      "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
+      "outputPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
       ],
       "configFilePaths": [
-        "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
         "netcoreapp3.1"
@@ -1010,8 +1004,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj": {
-              "projectPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj"
+            "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj": {
+              "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj"
             }
           }
         }
@@ -1045,7 +1039,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
       }
     }
   }

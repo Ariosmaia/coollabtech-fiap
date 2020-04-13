@@ -1,26 +1,89 @@
 {
   "format": 1,
   "restore": {
-    "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj": {}
+    "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj": {}
   },
   "projects": {
-    "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj": {
+    "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
-        "projectName": "CoollabTech.Domain.Core",
-        "projectPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
-        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\obj\\",
+        "projectUniqueName": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj",
+        "projectName": "CoollabTech.Application",
+        "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj",
+        "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "projectReferences": {
+              "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj": {
+                "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[9.0.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
+        "projectName": "CoollabTech.Domain.Core",
+        "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
+        "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -67,27 +130,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj": {
+    "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj",
+        "projectUniqueName": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj",
         "projectName": "CoollabTech.Domain",
-        "projectPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj",
-        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain\\obj\\",
+        "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj",
+        "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -99,8 +160,8 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj": {
-                "projectPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj"
+              "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj": {
+                "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj"
               }
             }
           }
@@ -128,27 +189,25 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj": {
+    "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj",
+        "projectUniqueName": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj",
         "projectName": "CoollabTech.Infra.CrossCutting.Identity",
-        "projectPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj",
-        "packagesPath": "C:\\Users\\diego\\.nuget\\packages\\",
-        "outputPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\obj\\",
+        "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj",
+        "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
+        "outputPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
-          "C:\\Microsoft\\Xamarin\\NuGet\\",
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\diego\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+          "C:\\Users\\Allan\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp3.1"
@@ -160,8 +219,11 @@
         "frameworks": {
           "netcoreapp3.1": {
             "projectReferences": {
-              "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj": {
-                "projectPath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj"
+              "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj": {
+                "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj"
+              },
+              "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj": {
+                "projectPath": "E:\\Users\\Allan Rios\\Desktop\\Docs\\FIAP\\ANO 2\\fase 2\\projeto\\CoollabTechAPI\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj"
               }
             }
           }
@@ -235,7 +297,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.200\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.1.201\\RuntimeIdentifierGraph.json"
         }
       }
     }

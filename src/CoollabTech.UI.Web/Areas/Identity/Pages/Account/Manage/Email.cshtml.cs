@@ -113,8 +113,9 @@ namespace CoollabTech.UI.Web.Areas.Identity.Pages.Account.Manage
                 NickName = Input.NickName,
                 Document = Input.Document,
                 Email = Input.NewEmail,
-                Gender = Input.Gender
-
+                Gender = Input.Gender,
+                Excluded = false,
+                Active = true
             };
             _citizenAppService.Update(citizen);
 

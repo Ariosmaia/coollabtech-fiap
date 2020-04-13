@@ -54,3 +54,16 @@ C:\eu\git\CARLOS\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcorea
 C:\eu\git\CARLOS\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.csproj.CopyComplete
 C:\eu\git\CARLOS\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.dll
 C:\eu\git\CARLOS\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.pdb
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\bin\Debug\netcoreapp3.1\CoollabTech.Application.deps.json
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\bin\Debug\netcoreapp3.1\CoollabTech.Application.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\bin\Debug\netcoreapp3.1\CoollabTech.Application.pdb
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\bin\Debug\netcoreapp3.1\CoollabTech.Domain.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\bin\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.csprojAssemblyReference.cache
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.AssemblyInfoInputs.cache
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.AssemblyInfo.cs
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.csproj.CopyComplete
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Application\obj\Debug\netcoreapp3.1\CoollabTech.Application.pdb

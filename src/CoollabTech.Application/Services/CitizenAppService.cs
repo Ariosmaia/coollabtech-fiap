@@ -45,5 +45,10 @@ namespace CoollabTech.Application.Services
             _bus.SendCommand(updateCitizenCommand);
         }
 
+        public void Remove(Guid id)
+        {
+            _bus.SendCommand(new DeleteCitizenCommand(id));
+
+        }
     }
 }

@@ -25,6 +25,9 @@ namespace CoollabTech.Infra.Data.Migrations
                         .ValueGeneratedOnAdd()
                         .HasColumnType("uniqueidentifier");
 
+                    b.Property<bool>("Active")
+                        .HasColumnType("bit");
+
                     b.Property<DateTime>("DateRegister")
                         .HasColumnType("datetime2");
 
@@ -36,6 +39,9 @@ namespace CoollabTech.Infra.Data.Migrations
                     b.Property<string>("Email")
                         .IsRequired()
                         .HasColumnType("varchar(100)");
+
+                    b.Property<bool>("Excluded")
+                        .HasColumnType("bit");
 
                     b.Property<string>("Gender")
                         .IsRequired()

@@ -8,7 +8,7 @@ namespace CoollabTech.Domain.Citizen.Commands
 {
     public class RegisterCitizenCommand : BaseCitizenCommand
     {
-        public RegisterCitizenCommand(Guid id, string name, string nickName, string document, string email, EGender gender, DateTime dateRegister)
+        public RegisterCitizenCommand(Guid id, string name, string nickName, string document, string email, EGender gender, DateTime dateRegister, bool exclued, bool active)
         {
             Id = id;
             Name = name;
@@ -17,6 +17,8 @@ namespace CoollabTech.Domain.Citizen.Commands
             Email = email;
             this.Gender = gender;
             DateRegister = dateRegister;
+            Excluded = exclued;
+            Active = active;
         }
     }
 }

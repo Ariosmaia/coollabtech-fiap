@@ -66,3 +66,21 @@ C:\eu\git\CARLOS\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\ob
 C:\eu\git\CARLOS\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.dll
 C:\eu\git\CARLOS\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.pdb
 C:\eu\git\CARLOS\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.genruntimeconfig.cache
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.deps.json
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.runtimeconfig.json
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.runtimeconfig.dev.json
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.pdb
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Domain.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.csprojAssemblyReference.cache
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.AssemblyInfoInputs.cache
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.AssemblyInfo.cs
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.csproj.CopyComplete
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.pdb
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\obj\Debug\netcoreapp3.1\CoollabTech.Infra.CrossCutting.Identity.genruntimeconfig.cache
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Application.dll
+E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Infra.CrossCutting.Identity\bin\Debug\netcoreapp3.1\CoollabTech.Application.pdb

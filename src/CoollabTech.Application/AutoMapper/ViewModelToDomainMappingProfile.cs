@@ -10,13 +10,18 @@ namespace CoollabTech.Application.AutoMapper
     {
         public ViewModelToDomainMappingProfile()
         {
+            #region Citizen
             CreateMap<CitizenViewModel, RegisterCitizenCommand>()
-                .ConvertUsing(c => new RegisterCitizenCommand(c.Id, c.Name, c.NickName, c.Document, c.Email, c.Gender, DateTime.Now));
+                .ConvertUsing(c => new RegisterCitizenCommand(c.Id, c.Name, c.NickName, c.Document, c.Email, c.Gender, DateTime.Now, c.Excluded, c.Active));
 
             CreateMap<CitizenViewModel, UpdateCitizenCommand>()
-                .ConvertUsing(c => new UpdateCitizenCommand(c.Id, c.Name, c.NickName, c.Document, c.Email, c.Gender));
+                .ConvertUsing(c => new UpdateCitizenCommand(c.Id, c.Name, c.NickName, c.Document, c.Email, c.Gender, c.Excluded, c.Active));
 
+            CreateMap<CitizenViewModel, DeleteCitizenCommand>()
+                .ConvertUsing(c => new DeleteCitizenCommand(c.Id));
+            #endregion
 
+            #region Ticket
             CreateMap<TicketViewModel, RegisterTicketCommand>()
                 .ConvertUsing(c => new RegisterTicketCommand(Guid.NewGuid(), c.Description, c.Localization, c.TicketStatusId, c.TicketTypeId, DateTime.Now));
 
@@ -25,6 +30,8 @@ namespace CoollabTech.Application.AutoMapper
 
             CreateMap<Guid, DeleteTicketCommand>()
                 .ConvertUsing(c => new DeleteTicketCommand(c));
+            #endregion
         }
+
     }
 }

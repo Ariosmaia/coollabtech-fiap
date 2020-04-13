@@ -65,7 +65,19 @@ namespace CoollabTech.UI.Web.Controllers
         {
             if (!ModelState.IsValid) return View(citizenViewModel);
 
-            _citizenAppService.Update(citizenViewModel);
+            var citizen = new CitizenViewModel
+            {
+                Id = citizenViewModel.Id,
+                Name = citizenViewModel.Name,
+                NickName = citizenViewModel.NickName,
+                Document = citizenViewModel.Document,
+                Email = citizenViewModel.Email,
+                Gender = citizenViewModel.Gender,
+                Excluded = false,
+                Active = true
+            };
+
+            _citizenAppService.Update(citizen);
 
             return RedirectToAction("Index");
         }

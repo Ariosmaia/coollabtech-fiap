@@ -20,32 +20,32 @@ namespace CoollabTech.Infra.Data.Repository
             DbSet = Db.Set<TEntity>();
         }
 
-        public void Add(TEntity obj)
+        public virtual void Add(TEntity obj)
         {
             DbSet.Add(obj);
         }
 
-        public void Update(TEntity obj)
+        public virtual void Update(TEntity obj)
         {
             DbSet.Update(obj);
         }
 
-        public IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
+        public virtual IEnumerable<TEntity> Find(Expression<Func<TEntity, bool>> predicate)
         {
             return DbSet.AsNoTracking().Where(predicate);
         }
 
-        public TEntity GetById(Guid id)
+        public virtual TEntity GetById(Guid id)
         {
             return DbSet.AsNoTracking().FirstOrDefault(t => t.Id == id);
         }
 
-        public IEnumerable<TEntity> GetAll()
+        public virtual IEnumerable<TEntity> GetAll()
         {
             return DbSet.ToList();
         }
 
-        public void Remove(Guid id)
+        public virtual void Remove(Guid id)
         {
             DbSet.Remove(DbSet.Find(id));
         }

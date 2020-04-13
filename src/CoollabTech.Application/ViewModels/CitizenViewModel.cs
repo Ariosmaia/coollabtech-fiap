@@ -4,11 +4,14 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
+using System.Text.Json.Serialization;
+
 
 namespace CoollabTech.Application.ViewModels
 {
     public class CitizenViewModel
     {
+        [JsonIgnore]
         [Key]
         public Guid Id { get; set; }
 
@@ -36,6 +39,8 @@ namespace CoollabTech.Application.ViewModels
         [Required(ErrorMessage = "O sexo é requerido")]
         [DisplayName("Sexo")]
         public EGender Gender { get;  set; }
+        public bool Excluded { get;  set; }
+        public bool Active { get;  set; }
 
     }
 }

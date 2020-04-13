@@ -1,15 +1,13 @@
-﻿using System;
+﻿using CoollabTech.Application.ViewModels;
+using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
 using System.Text;
 
 namespace CoollabTech.Infra.CrossCutting.Identity.Models
 {
-    public class UserRegistration
+    public class UserRegistration : CitizenViewModel
     {
-        [Required(ErrorMessage = "O campo {0} é obrigatório")]
-        [EmailAddress(ErrorMessage = "O campo {0} está em um formato inválido")]
-        public string Email { get; set; }
 
         [Required(ErrorMessage = "O campo {0} é obrigatório")]
         [StringLength(100, ErrorMessage = "O campo {0} deve ser entre {2} e {1} caracteres", MinimumLength = 6)]

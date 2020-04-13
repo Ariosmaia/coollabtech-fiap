@@ -15,5 +15,7 @@ namespace CoollabTech.Domain.Citizen.Commands
         public string Email { get; protected set; }
         public EGender Gender { get; protected set; }
         public DateTime DateRegister { get; protected set; }
+        public bool Excluded { get; protected set; }
+        public bool Active { get; protected set; }
     }
 }

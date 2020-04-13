@@ -15,7 +15,7 @@ namespace CoollabTech.Infra.Data.Repository
         {
         }
 
-        public IEnumerable<Ticket> Find(Expression<Func<Ticket, bool>> predicate)
+        public override IEnumerable<Ticket> Find(Expression<Func<Ticket, bool>> predicate)
         {
             return DbSet
                 .AsNoTracking()
@@ -25,7 +25,7 @@ namespace CoollabTech.Infra.Data.Repository
                 .Where(predicate);
         }
 
-        public IEnumerable<Ticket> GetAll()
+        public override IEnumerable<Ticket> GetAll()
         {
             return DbSet
                 .AsNoTracking()
@@ -34,7 +34,7 @@ namespace CoollabTech.Infra.Data.Repository
                 .Include(spr => spr.TicketType.ServiceProvider);
         }
 
-        public Ticket GetById(Guid id)
+        public override Ticket GetById(Guid id)
         {
             return DbSet
                 .AsNoTracking()

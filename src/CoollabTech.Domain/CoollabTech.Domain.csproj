@@ -6,6 +6,7 @@
 
   <ItemGroup>
     <None Remove="Citizen\Commands\BaseCitizenCommand.cs~RFa189997.TMP" />
+    <None Remove="Citizen\Commands\DeleteCommandHlandler.cs~RF3d2e152.TMP" />
     <None Remove="Citizen\Events\BaseCitizenEvent.cs~RFaa07f34.TMP" />
     <None Remove="Citizen\Repository\ICitizenRepository.cs~RF50d3566.TMP" />
     <None Remove="Interfaces\IMediatorHandler.cs~RF288b2f88.TMP" />

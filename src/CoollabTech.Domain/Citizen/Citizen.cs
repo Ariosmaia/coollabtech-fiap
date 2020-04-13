@@ -15,19 +15,38 @@ namespace CoollabTech.Domain.Citizen
         public string Email { get; private set; }
         public EGender Gender { get; private set; }
         public DateTime DateRegister { get; private set; }
+        public bool Excluded { get; private set; }
+        public bool Active { get; private set; }
 
-        public Citizen(Guid id, string name, string nickName, string document, string email, EGender gender, DateTime dateRegister)
+        public Citizen(
+            Guid id, 
+            string name, 
+            string nickName, 
+            string document, 
+            string email, EGender gender, DateTime dateRegister, bool excluded, bool active)
         {
             Id = id;
             Name = name;
             NickName = nickName;
             Document = document;
             Email = email;
-            this.Gender = gender;
+            Gender = gender;
             DateRegister = dateRegister;
+            Excluded = excluded;
+            Active = active;
         }
 
         public Citizen() { }
+
+        public void DeleteCitizen()
+        {
+            Excluded = true;
+        }
+
+        public void NotActive()
+        {
+            Active = false;
+        }
 
         public override bool IsValid()
         {
@@ -35,6 +54,7 @@ namespace CoollabTech.Domain.Citizen
             return ValidationResult.IsValid;
         }
 
+        #region Validations
         private void Validate()
         {
             ValidateName();
@@ -75,8 +95,9 @@ namespace CoollabTech.Domain.Citizen
 
         private void ValidateGender()
         {
-            RuleFor(c => c.Gender)
-                .NotEmpty().WithMessage("O sexo deve ser informado");
+            RuleFor(c => c.Gender).IsInEnum().WithMessage("Escolha Masculino ou Feminino");
+            RuleFor(c => c.Gender).NotNull().WithMessage("Escolha Masculino ou Feminino");
+
         }
 
         private void ValidateDateRegister()
@@ -86,5 +107,7 @@ namespace CoollabTech.Domain.Citizen
                 .WithMessage("A data de cadastro não deve ser maior que a data atual");
         }
 
+
+        #endregion
     }
 }
