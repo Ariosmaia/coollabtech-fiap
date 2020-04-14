@@ -10,18 +10,6 @@ E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTech\src\Cooll
 E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTech\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.dll
 E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTech\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
 E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTech\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CoreCompileInputs.cache
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.deps.json
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.dll
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csprojAssemblyReference.cache
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CoreCompileInputs.cache
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.AssemblyInfoInputs.cache
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.AssemblyInfo.cs
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CopyComplete
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.dll
-C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
 C:\Users\junio\Source\Repos\juniofelix\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.deps.json
 C:\Users\junio\Source\Repos\juniofelix\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.dll
 C:\Users\junio\Source\Repos\juniofelix\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
@@ -57,3 +45,15 @@ E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coolla
 E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CopyComplete
 E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.dll
 E:\Users\Allan Rios\Desktop\Docs\FIAP\ANO 2\fase 2\projeto\CoollabTechAPI\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.deps.json
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.dll
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csprojAssemblyReference.cache
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CoreCompileInputs.cache
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.AssemblyInfoInputs.cache
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.AssemblyInfo.cs
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CopyComplete
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.dll
+C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.pdb

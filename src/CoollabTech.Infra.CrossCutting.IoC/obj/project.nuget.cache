@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "DhiQ7qOYGT863FvrIDOn04cxkCOYOpUVS+jPc9Y1ZBEtYp2TkI7cfyRxhhDEMQnfbmB1kR6xSXVRwG76w3iIhg==",
+  "dgSpecHash": "V5Gb0C7mFPLt9Z4AAQo+VE9lxbxzinQrgk1F2EAuzs9yArZU0KUDMB7l99oTAeMZra6yaK+gut9Q34+5ABpqxw==",
   "success": true,
   "projectFilePath": "C:\\eu\\git\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
