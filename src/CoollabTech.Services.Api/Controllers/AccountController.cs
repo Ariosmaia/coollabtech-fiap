@@ -18,6 +18,8 @@ using Microsoft.Extensions.Options;
 using Microsoft.IdentityModel.Tokens;
 using CoollabTech.Domain.Citizen.Enums;
 using Microsoft.AspNetCore.Authorization;
+using CoollabTech.Domain.Citizen;
+using CoollabTech.Services.Api.DTOs;
 
 namespace CoollabTech.Services.Api.Controllers
 {
@@ -123,7 +125,11 @@ namespace CoollabTech.Services.Api.Controllers
             await _signInManager.SignInAsync(user, false);
             var token = await GenerateJwt(userRegistration.Email);
 
-            return Response(token);
+
+
+            return Response(
+                new { citizen, token }
+            );
         }
 
 
@@ -168,7 +174,10 @@ namespace CoollabTech.Services.Api.Controllers
                 }
 
                 var token = await GenerateJwt(userLogin.Email);
-                return Response(token);
+                var citizen = _citizenAppService.GetById(Guid.Parse(user.Id));
+
+
+                return Response(new ResultDataDTO(citizen, token));
             }
 
 

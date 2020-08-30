@@ -7,6 +7,7 @@ using CoollabTech.Domain.Interfaces;
 using MediatR;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.OpenApi.Any;
 
 namespace CoollabTech.Services.Api.Controllers
 {

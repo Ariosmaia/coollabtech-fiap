@@ -40,3 +40,12 @@ C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\C
 C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.AssemblyInfo.cs
 C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
 C:\eu\git\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.deps.json
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.csprojAssemblyReference.cache
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.AssemblyInfoInputs.cache
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.AssemblyInfo.cs
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.csproj.CoreCompileInputs.cache
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
+C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain.Core\obj\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
