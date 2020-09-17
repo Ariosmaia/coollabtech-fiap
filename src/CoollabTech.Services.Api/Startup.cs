@@ -65,9 +65,10 @@ namespace CoollabTech.Services.Api
         }
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
+            
+            app.UseDeveloperExceptionPage();
             if (env.IsDevelopment())
             {
-                app.UseDeveloperExceptionPage();
             }
 
             app.UseHttpsRedirection();
