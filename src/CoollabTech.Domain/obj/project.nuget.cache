@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "+Q7QuNPzU/8/DphFHHELnNzWWfOtsJAE/g9kx21N2tGCe/WLeU/8fSXDcpSSQI6KOne1I4z+zoJVjeKT979GDA==",
+  "dgSpecHash": "XW2NWiWPI6pvTltTLzbh70XfJByK8UHgFRjZl0utNE/2uFupTLifQCiyL72We663IFqdj3P2RLRERsRWRAZdaw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj",
+  "projectFilePath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Domain\\CoollabTech.Domain.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Allan\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\mediatr\\8.0.1\\mediatr.8.0.1.nupkg.sha512",

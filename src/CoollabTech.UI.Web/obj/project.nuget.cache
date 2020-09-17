@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "BFUzcNo10IZwJ2TlC0dG/36amUUK/v0TRNu2epgw9UI1f1ZYsoneBunucJdqlgdfZB/jBSdJV6rlVwnStQteZw==",
+  "dgSpecHash": "jijr4J5Um3lVdvE+aECZAAsZUZ4ZZsctv5nH8tt4p+NpO01f7eH8S6RbW7zRqOMMm6784hdVXvSA/gg3rPEMEg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\CoollabTech.UI.Web.csproj",
+  "projectFilePath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\CoollabTech.UI.Web.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Allan\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\7.0.0\\automapper.extensions.microsoft.dependencyinjection.7.0.0.nupkg.sha512",

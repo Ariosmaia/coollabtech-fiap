@@ -171,11 +171,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
+      "projectUniqueName": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
       "projectName": "CoollabTech.Domain.Core",
-      "projectPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
+      "projectPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\CoollabTech.Domain.Core.csproj",
       "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\obj\\",
+      "outputPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Domain.Core\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

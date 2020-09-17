@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "62VncpX7iXny7Ze9yX3haHCG0cqVBi20PxRGvNZ1+YKPs7uhD+Mby0nmBVjobiMdVqJC1e2jYuZ8hQfzz8pNUg==",
+  "dgSpecHash": "wNMcBbV2ndXMdgkgtQNlgjsCDfWEcx52mNJ0Lq3bTLzJh+vn0/m4j+oTdz7llKgJxPfENs5bg1tSgfT7qXEFQg==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj",
+  "projectFilePath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Allan\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\fluentvalidation\\8.6.2\\fluentvalidation.8.6.2.nupkg.sha512",

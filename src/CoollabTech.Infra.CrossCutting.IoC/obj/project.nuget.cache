@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "iOwNTOeKDvXqP3Xu1zqjGKrxZHw2B83uypSM2o1voG9NcXbnD7veA4Qha07RXwUvC3cxH3iI4Nl4XHhpsIRgQw==",
+  "dgSpecHash": "Oj8QYvTy1nr+q15uZSo88ToNdtApBcgzY3S6W5VBB78eTSn3YhnaJwLRbMdh4U9yCziw7hXwhuAifbDwFybJRw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj",
+  "projectFilePath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Allan\\.nuget\\packages\\automapper\\9.0.0\\automapper.9.0.0.nupkg.sha512",
     "C:\\Users\\Allan\\.nuget\\packages\\coverlet.collector\\1.2.0\\coverlet.collector.1.2.0.nupkg.sha512",

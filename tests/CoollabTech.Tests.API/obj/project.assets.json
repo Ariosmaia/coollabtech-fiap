@@ -3487,11 +3487,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
+      "projectUniqueName": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
       "projectName": "CoollabTech.Tests.Api",
-      "projectPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
+      "projectPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\CoollabTech.Tests.Api.csproj",
       "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\obj\\",
+      "outputPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\tests\\CoollabTech.Tests.API\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

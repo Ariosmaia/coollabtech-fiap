@@ -69,3 +69,15 @@ C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Deb
 C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CopyComplete
 C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.dll
 C:\Users\Allan\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.deps.json
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.dll
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.pdb
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.dll
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\bin\Debug\netcoreapp3.1\CoollabTech.Domain.Core.pdb
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csprojAssemblyReference.cache
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.AssemblyInfoInputs.cache
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.AssemblyInfo.cs
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.csproj.CopyComplete
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.dll
+C:\Users\Allan\Desktop\Desktop\faculdade\coollabtech-fiap\src\CoollabTech.Domain\obj\Debug\netcoreapp3.1\CoollabTech.Domain.pdb

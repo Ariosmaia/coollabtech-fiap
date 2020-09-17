@@ -8469,11 +8469,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\CoollabTech.UI.Web.csproj",
+      "projectUniqueName": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\CoollabTech.UI.Web.csproj",
       "projectName": "CoollabTech.UI.Web",
-      "projectPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\CoollabTech.UI.Web.csproj",
+      "projectPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\CoollabTech.UI.Web.csproj",
       "packagesPath": "C:\\Users\\Allan\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\obj\\",
+      "outputPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.UI.Web\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
@@ -8493,17 +8493,17 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj": {
-              "projectPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj"
+            "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj": {
+              "projectPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Application\\CoollabTech.Application.csproj"
             },
-            "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj": {
-              "projectPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj"
+            "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj": {
+              "projectPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.Identity\\CoollabTech.Infra.CrossCutting.Identity.csproj"
             },
-            "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj": {
-              "projectPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj"
+            "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj": {
+              "projectPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.CrossCutting.IoC\\CoollabTech.Infra.CrossCutting.IoC.csproj"
             },
-            "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.Data\\CoollabTech.Infra.Data.csproj": {
-              "projectPath": "C:\\Users\\Allan\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.Data\\CoollabTech.Infra.Data.csproj"
+            "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.Data\\CoollabTech.Infra.Data.csproj": {
+              "projectPath": "C:\\Users\\Allan\\Desktop\\Desktop\\faculdade\\coollabtech-fiap\\src\\CoollabTech.Infra.Data\\CoollabTech.Infra.Data.csproj"
             }
           }
         }
