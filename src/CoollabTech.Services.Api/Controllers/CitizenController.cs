@@ -14,7 +14,7 @@ using Microsoft.AspNetCore.Mvc;
 
 namespace CoollabTech.Services.Api.Controllers
 {
-    //[Authorize]
+    [Authorize]
     public class CitizenController : ApiController
     {
         private readonly ICitizenAppService _citizenAppService;
