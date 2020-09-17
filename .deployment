@@ -1,2 +1,2 @@
 [config]
-project = CoollabTech.Services.Api/CoollabTech.Services.Api.csproj
+project = src/CoollabTech.Services.Api/CoollabTech.Services.Api.csproj
